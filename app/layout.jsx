@@ -45,11 +45,10 @@ export default function RootLayout({ children }) {
 				<NhostProvider nhost={nhost}>
 					<NhostApolloProvider
 						nhost={nhost}
-						// graphqlUrl='https://uvhdixclwxvoqptvnugj.hasura.eu-central-1.nhost.run/v1/graphql'>
 						graphqlUrl='https://fjxyezhyddcwejusthlr.hasura.eu-west-2.nhost.run/v1/graphql'>
 						{/* <AnimatePresence> */}
 						<div
-							className='overflow-x-hidden '
+							className='w-full h-full '
 							// key={pathname}
 							// initial={{ opacity: 0 }}
 							// animate={{ opacity: 1 }}
