@@ -23,7 +23,7 @@ const Page = () => {
 				</header>
 
 				<div className='w-full max-w-5xl h-screen mx-auto justify-center items-center flex flex-col  gap-4'>
-					<h1 className='sm:text-3xl text-2xl text-gray-500'>
+					<h1 className='sm:text-3xl text-6xl text-gray-600 font-semibold'>
 						Summarize, Recall, Learn, Grow...
 					</h1>
 				</div>
